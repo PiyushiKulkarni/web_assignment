@@ -1,0 +1,95 @@
+
+.bg-body{
+  background-color: #6b7280;
+}
+.bg-white {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .h-80 {
+    height: 80%;
+  }
+  
+  .w-80 {
+    width: 80%;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded-md {
+    border-radius: 0.375rem; 
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; 
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .mail-title {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      background-color: #f0f0f0; 
+    }
+  }
+ 
+
+
+.card button {
+  padding: 0.5rem 1rem;  
+  font-size: 0.8rem;     
+}
+
+
+.rounded-full {
+  border-radius: 9999px; 
+  padding: 0.5rem 1rem;   
+  font-size: 0.8rem;      
+}
+
+.rounded-full:hover {
+  background-color: #3490dc;
+}
+.card{
+  margin-top: 1rem;
+  padding: 1rem;           
+  border-radius: 12px;
+  min-width: 100%; 
+    width: auto; 
+    margin-right: 0;
+}
+.card-container{
+  margin-top: 4rem; 
+  padding: 1rem;           
+}
+.w-full {
+  width: 100%;
+}
+
+.sm\:w-1\/5 {
+  /* For small screens (tablets) set width to 100% */
+  width: 100%;
+}
