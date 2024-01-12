@@ -18,7 +18,7 @@ export class AppComponent implements AfterViewInit{
   }
 
   initMap(): void {
-    const location = { lat: 37.7749, lng: -122.4194 }; // Replace with the actual coordinates of Philz Coffee
+    const location = { lat: 37.7749, lng: -122.4194 }; 
 
     const map = new google.maps.Map(document.getElementById('google-map'), {
       center: location,

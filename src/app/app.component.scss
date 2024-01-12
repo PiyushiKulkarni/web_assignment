@@ -1,20 +1,4 @@
-/* dashboard.component.scss */
-/* Add this code to your existing dashboard.component.scss */
 
-// .card-container {
-//   display: flex;
-//   justify-content: center;  /* Center horizontally */
-//   align-items: center;      /* Center vertically */
-//   overflow-x: hidden;
-// }
-
-// .card {
-//   min-width: 200px;
-//   width: 300px;
-//   flex: 0 0 auto;
-//   scroll-snap-align: start;
-//   margin-right: 1rem;
-// }
 .bg-body{
   background-color: #6b7280;
 }
@@ -39,11 +23,11 @@
   }
   
   .rounded-md {
-    border-radius: 0.375rem; /* 6px */
+    border-radius: 0.375rem; 
   }
   
   .text-lg {
-    font-size: 1.125rem; /* 18px */
+    font-size: 1.125rem; 
   }
   
   .font-semibold {
@@ -68,36 +52,44 @@
     transition: color 0.3s ease;
   
     &:hover {
-      background-color: #f0f0f0; /* Light gray background on hover */
+      background-color: #f0f0f0; 
     }
   }
  
 
-/* Buttons inside the card */
+
 .card button {
-  padding: 0.5rem 1rem;  /* Adjust padding to make the buttons smaller */
-  font-size: 0.8rem;     /* Adjust font size to make the buttons smaller */
+  padding: 0.5rem 1rem;  
+  font-size: 0.8rem;     
 }
 
-/* Round button to show next card */
+
 .rounded-full {
-  border-radius: 9999px;  /* Make the button fully rounded */
-  padding: 0.5rem 1rem;   /* Adjust padding to make the button smaller */
-  font-size: 0.8rem;      /* Adjust font size to make the button smaller */
+  border-radius: 9999px; 
+  padding: 0.5rem 1rem;   
+  font-size: 0.8rem;      
 }
 
-/* Add hover effect to the button */
 .rounded-full:hover {
   background-color: #3490dc;
 }
 .card{
   margin-top: 1rem;
-  padding: 1rem;           /* Add padding for spacing */
+  padding: 1rem;           
   border-radius: 12px;
+  min-width: 100%; 
+    width: auto; 
+    margin-right: 0;
 }
 .card-container{
   margin-top: 4rem; 
-  padding: 1rem;           /* Add padding for spacing */
+  padding: 1rem;           
+}
+.w-full {
+  width: 100%;
+}
 
- 
+.sm\:w-1\/5 {
+  /* For small screens (tablets) set width to 100% */
+  width: 100%;
 }

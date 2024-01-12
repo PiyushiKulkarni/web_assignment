@@ -30,13 +30,12 @@
         <!-- Sidebar -->
         <div class="w-1/5 p-4 bg-gray-200">
             <h2 class="text-4xl font-medium mb-4">Review Inbox </h2>
-            <!-- Sidebar content (mails and tasks) goes here -->
-            <!-- Sidebar with mail titles -->
+            
+          
             
             <div class="flex flex-col">
               <div *ngFor="let mailTitle of mailTitles; let i = index" class="mail-title" [style.color]="getMailTitleColor(i)">
                 <span class="mr-2">
-                  <!-- Font Awesome icon for email -->
                   <i class="fas fa-envelope"></i>
               </span>
                 {{ mailTitle }}
@@ -45,9 +44,9 @@
 
         </div>
 
-        <!-- Main content area -->
+        
         <div class="w-3/4 p-4">
-            <!-- Floating cards -->
+            <!--cards -->
             <div class="card-container">
                 <!-- Email Inbox Card -->
                 <div class="card bg-white p-4 shadow rounded ">
@@ -75,14 +74,13 @@
                           <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full">Delete</button>
                         </div>
                         <br>
-                        <h6 class="cursor-pointer">More Actions</h6>
+                        <h6 class="cursor-pointer text-xs">More Actions</h6>
                   </div>
 
                 <!-- Calendar Card -->
                 <div class="card bg-white p-4 shadow rounded">
                     <h3 class="text-sm font-light mb-2">See My Availablality: Today</h3>
-                    <!-- Calendar content goes here -->
-                     <!-- Calendar content -->
+                    
                   <!-- Calendar content -->
                   <div>
                     <p class="text-2xl font-bold">
@@ -93,11 +91,9 @@
                     </p>
                   </div>
 
-                  <!-- Enhanced time-wise calendar card -->
                   <div class="mt-4 p-2  rounded-md">
                     <div class=" justify-between items-center mb-2 cursor-pointer">
                       <div class="text-sm font-semibold text-gray-600">9.41 AM</div>
-                      <!-- <div class="text-sm font-medium text-purple-500">---------------------</div> -->
                     </div>
                     <div class="bg-blue-100 justify-between items-center mb-2 cursor-pointer">
                       <div class="text-sm font-semibold text-gray-600">11 AM</div>
@@ -109,9 +105,8 @@
                     </div>
                     <div class=" justify-between items-center mb-2 cursor-pointer">
                       <div class="text-sm font-semibold text-gray-600">3 PM</div>
-                      <!-- <div class="text-sm font-medium text-purple-500">---------------------</div> -->
                     </div>
-                    <!-- Add more time slots and tasks as needed -->
+                    
                   </div>
 
                   <!-- Buttons -->
@@ -122,17 +117,17 @@
                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full">Dismiss</button>
                   </div>
                   <br>
-                  <h6 class="cursor-pointer">More Actions</h6>
+                  <h6 class="cursor-pointer text-xs">More Actions</h6>
                 </div>
 
                 <!-- Maps Card -->
                 <div class="card bg-white p-4 shadow rounded">
                     <h3 class="text-sm font-light mb-2">Philz Coffee : Location</h3>
-                    <!-- Maps content goes here -->
+                   
                     <!-- Google Maps container -->
                     <div class="mb-2" id="google-map" style="height: 180px;"></div>
 
-                    <!-- Address -->
+                    
                     <p class="mb-2">
                       Philz Coffee Shop,
                       <br>
@@ -146,16 +141,16 @@
                       <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full">Find More Cafes Nearby</button>
                     </div>
                     <br>
-                    <h6 class="cursor-pointer">More Actions</h6>
+                    <h6 class="cursor-pointer text-xs">More Actions</h6>
                   </div>
                 </div>
                  
               </div>
 
-        <!-- Include AngularJS -->
+       
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 
-        <!-- Include your AngularJS script -->
+       
         <script src="app.js"></script>
     </div>
 </body>
