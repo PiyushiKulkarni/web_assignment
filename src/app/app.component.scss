@@ -1,0 +1,103 @@
+/* dashboard.component.scss */
+/* Add this code to your existing dashboard.component.scss */
+
+// .card-container {
+//   display: flex;
+//   justify-content: center;  /* Center horizontally */
+//   align-items: center;      /* Center vertically */
+//   overflow-x: hidden;
+// }
+
+// .card {
+//   min-width: 200px;
+//   width: 300px;
+//   flex: 0 0 auto;
+//   scroll-snap-align: start;
+//   margin-right: 1rem;
+// }
+.bg-body{
+  background-color: #6b7280;
+}
+.bg-white {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .h-80 {
+    height: 80%;
+  }
+  
+  .w-80 {
+    width: 80%;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded-md {
+    border-radius: 0.375rem; /* 6px */
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* 18px */
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .mail-title {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      background-color: #f0f0f0; /* Light gray background on hover */
+    }
+  }
+ 
+
+/* Buttons inside the card */
+.card button {
+  padding: 0.5rem 1rem;  /* Adjust padding to make the buttons smaller */
+  font-size: 0.8rem;     /* Adjust font size to make the buttons smaller */
+}
+
+/* Round button to show next card */
+.rounded-full {
+  border-radius: 9999px;  /* Make the button fully rounded */
+  padding: 0.5rem 1rem;   /* Adjust padding to make the button smaller */
+  font-size: 0.8rem;      /* Adjust font size to make the button smaller */
+}
+
+/* Add hover effect to the button */
+.rounded-full:hover {
+  background-color: #3490dc;
+}
+.card{
+  margin-top: 1rem;
+  padding: 1rem;           /* Add padding for spacing */
+  border-radius: 12px;
+}
+.card-container{
+  margin-top: 4rem; 
+  padding: 1rem;           /* Add padding for spacing */
+
+ 
+}
